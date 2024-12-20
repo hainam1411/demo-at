@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: #FEF7F1;
+}
+
+
+:root {
+    --swiper-theme-color: #007aff;
+    --dh-color-1: rgb(24, 24, 24);
+    --dh-color-2: #292929;
+    --dh-color-3: #363636;
+    --dh-color-4: #525252;
+    --dh-text-1: rgb(158, 158, 158);
+    --dh-text-2: rgb(255, 255, 255);
+    --dh-brand: rgb(163, 117, 255);
+    --dh-green: rgb(46, 184, 176);
+    --dh-yellow: rgb(255, 169, 0);
+    --dh-red: rgb(218, 0, 44);
+    --dh-orange: rgb(255, 155, 115);
+    --dh-blue: rgb(12, 141, 233);
+    --dh-scrollbar: #363636;
+    --dh-scrollbar-hover: #525252;
+    --Purple: rgba(117, 107, 238, 1);
+    --Silver: rgba(255, 255, 255, 1);
+    --Dark-Silver: rgba(57, 54, 78, 1);
+    --Black: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0)
+}
+
+html {
+    scroll-behavior: smooth;
+}
