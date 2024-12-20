@@ -39,3 +39,149 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
+a {
+    cursor: pointer;
+    transition: all 200ms 0ms linear;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/*header*/
+.nav-bar {
+    top: 0;
+    left: 0;
+    color: var(--Black);
+    right: 0;
+    bottom: auto;
+    display: flex;
+    z-index: 100000;
+    position: sticky;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    margin-left: auto;
+    padding: 1rem 7rem;
+    margin-right: auto;
+    border-bottom: 1px solid #f9dbaf;
+    border-radius: 1px;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1679px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-bar-left {
+    column-gap: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav-bar-left img {
+    height: 26px;
+}
+
+
+.nav-bar-left .ecom {
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.nav-bar-left .ecom a p {
+
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(90deg, #001e4b 2%, #006ccc 100%);
+    -webkit-background-clip: text;
+
+}
+
+.nav-bar-left .hide-link {
+    flex: 1 1 0%;
+
+}
+
+.nav-bar-left .hide-link a p {
+    color: var(--Black);
+    background:  var(--Black);
+}
+
+.nav-bar-right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-bar-right .button-5g {
+    display: flex;
+    flex: 0 0 auto;
+    color: #ef6820;
+    border: 2px solid #ef6820;
+    height: auto;
+    text-align: justify;
+    word-break: normal;
+    align-items: center;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.nav-bar-right .button-ecom {
+    display: flex;
+    flex: 0 0 auto;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, #001e4b 0%, #006ccc 100%);
+    border-top: 1px solid #001e4b;
+    box-shadow: 0px 0px 10px 0px #001f4d2e;
+    text-align: justify;
+    word-break: normal;
+    align-items: center;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    flex-direction: row;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 0;
+    transition: 0.2s;
+}
+
+.menu-icon .line {
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+
+.t403 {
+    display: none;
+}
+
