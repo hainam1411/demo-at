@@ -12,7 +12,54 @@ body {
     background-color: #FEF7F1;
 }
 
+.slide
+{
+    margin:auto;
+    width: 100%;
+    background-color: #FEF7F1;
+    padding: 64px 48px;
 
+}
+.select-banner
+{
+    display: flex;
+    gap: 1rem ;
+    justify-content: center;
+    width: 100%;
+}
+.item-banner
+{
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    outline: 2px solid #e04f16;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    max-width: 100%;
+}
+.space
+{
+    width: 1px;
+    height: 1rem;
+    background-color: red;
+}
+.slide-banner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.slide-banner img
+{
+    max-width: 100%;
+}
+.banner-left,.banner-right
+{
+    padding: 1.5px 1.5rem 1.5rem 1.5rem;
+}
 :root {
     --swiper-theme-color: #007aff;
     --dh-color-1: rgb(24, 24, 24);
