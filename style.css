@@ -17,15 +17,25 @@ body {
     margin:auto;
     width: 100%;
     background-color: #FEF7F1;
-    padding: 64px 48px;
+ 
+   
 
+}
+.slide>div
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
 }
 .select-banner
 {
     display: flex;
-    gap: 1rem ;
+    gap: 10px    ;
     justify-content: center;
     width: 100%;
+    align-items: center;
+    flex-wrap:wrap
+  
 }
 .item-banner
 {
@@ -35,7 +45,8 @@ body {
     outline: 2px solid #e04f16;
     border-radius: 0.5rem;
     gap: 1rem;
-    max-width: 100%;
+   font-weight: 700;
+   /* animation: 600ms ease 300ms 1 normal forwards running fadeInUp; */
 }
 .space
 {
@@ -50,16 +61,303 @@ body {
     max-width: 100%;
     padding: 30px;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    margin: 0 7rem 0 7rem;
+    column-gap: 2rem;
 }
-.slide-banner img
+
+.banner-left,.banner-right
+{
+    padding: 1.5rem 0;
+   
+}
+.banner-left img,.banner-right img
 {
     max-width: 100%;
 }
-.banner-left,.banner-right
+.case-study-fnb
 {
-    padding: 1.5px 1.5rem 1.5rem 1.5rem;
+    margin: 4rem 7rem 2rem 7rem;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
+h2
+{
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+}
+.select
+{
+    margin: 0 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.select-crike
+{
+    padding: 6px;
+    background-color: #e04f16;
+    width: 0%;
+    border-radius:50rem;
+}.slide-case-study
+{
+  
+    width: 100%;
+}
+/* .slide-case
+{
+   position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+} */
+.slide-case img
+{
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+@keyframes slideshow-animation {
+    0%   { opacity: 1; }
+    33%  { opacity: 1; }
+    66%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+  /* .slide-case:nth-child(1) {
+    animation: slideshow-animation 20s infinite;
+  }
+  .slide-case:nth-child(2) {
+    animation: slideshow-animation 20s infinite;
+    animation-delay: 5s;
+  }
+  .slide-case:nth-child(3) {
+    animation: slideshow-animation 20s infinite;
+    animation-delay: 5s;
+  }
+  .slide-case:nth-child(4) {
+    animation: slideshow-animation 20s infinite;
+    animation-delay: 5s;
+  }
+  .slide-case:nth-child(5) {
+    animation: slideshow-animation 20s infinite;
+      animation-delay: 5s;
+  } */
+  .btn-start 
+  {
+    text-align: center;
+  
+  }
+  .btn-start a
+  {
+    display: inline-block;
+    color: rgb(255,255,255);
+    padding: 1rem 3rem;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    border-radius: 10px;
+    border-top: 1px solid #feaea4;
+    background: linear-gradient(180deg, #f48120 0%, #ef4723 100%);
+  }
+  .reason
+  {
+    margin: 0 7rem;
+    padding-bottom: 50px;
+  }
+  .reason h2
+  {
+    margin-bottom: 2rem;
+  }
+  .reason-item
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 1.5rem 0;
+  }
+  .effect,.clear,.prestige
+  {
+    background-color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    border-radius: 10px
+
+    
+  }
+  .ecosystem
+  {
+    padding: 3rem;
+    background:rgb(255, 255, 255,1.00);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    border-radius: 10px;
+
+  } .ecosystem h3 
+  {
+    font-size: 24px;
+    font-weight:700;
+
+  }
+  .ecosystem p .text-bold
+  {
+    font-weight: bold;
+  }
+  .ecosystem p span ,.ecosystem span
+  {
+    font-size: 18px;
+  }
+  .ecosystem-img>div
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+  }
+  .ecosystem-item
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+   
+  }
+  .ecosystem-item img
+  {
+    max-width: 100%;
+  }
+  .ecosystem-item h3
+  {
+    -webkit-background-clip: text;
+    background-clip: text !important;
+     color: transparent ;
+    background:  linear-gradient(90deg, #f26336 0%, #f68e39 100%);
+  }
+  
+  .ecosystem-item h3,.ecosystem-item p
+  {
+    text-align: center;
+  }
+  .matrix,.power,.achievement
+  {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .matrix>div,.power>div
+  {
+    padding: 3rem;
+  }
+  .achievement>div
+  {
+    padding: 2rem 3rem 3rem 3rem ;
+  }
+  .matrix>div>img, .power>div>img,.achievement>div>img
+  {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .btn-start-end
+  {
+    text-align: center;
+    margin-top: 60px;
+
+  }
+  .btn-start-end a
+  {
+    display: inline-block;
+    color: rgb(255,255,255);
+    padding: 1rem 3rem;
+    font-weight: 500;
+    margin: 1rem 0 0 0;
+    border-radius: 10px;
+    border-top: 1px solid #feaea4;
+    background: linear-gradient(180deg, #f48120 0%, #ef4723 100%);
+  }
+  .footer
+  {
+    margin-top: 4rem;
+    padding: 4rem 7rem;
+    background-color: white;
+    color:#475467 ;
+  }
+  .footer-main 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-col-1
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem ;
+    max-width: 30rem;
+  }
+  .footer-col-1 img
+  {
+    width: 50%;
+  }
+  .footer-col-1 .flag 
+  {
+    display: flex;
+    column-gap: 1rem;
+    flex-direction: row;
+  }
+  .flag img
+  {
+    width: 24px;
+  }
+  .footer-col-2
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+  }
+  .contact-with
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem ;
+  }
+
+  .address
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .address-north,.address-sorth
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .address-north .pt,.address-sorth .pt,.contact-with .pt
+  {
+    font-weight: 700;
+  }
+  .phone a
+  {
+    display: flex;
+    align-items: center;
+    column-gap: 0.75rem;
+  }
+  .phone a p 
+  {
+    font-weight: normal;
+    color: #475467;
+  }
+  .end
+  {
+    white-space: break-spaces;
+  }
+
 :root {
     --swiper-theme-color: #007aff;
     --dh-color-1: rgb(24, 24, 24);
