@@ -352,8 +352,7 @@ img {
 .container {
     display: flex;
     justify-content: space-between;
-    max-width: 1679px;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -371,7 +370,11 @@ img {
     align-items: center;
 }
 
-.nav-bar-left img {
+.second-logo {
+    display: none;
+}
+
+.main-logo {
     height: 26px;
 }
 
@@ -413,7 +416,7 @@ img {
     gap: 1.5rem;
 }
 
-.nav-bar-right .button-5g {
+ .button-5g {
     display: flex;
     flex: 0 0 auto;
     color: #ef6820;
@@ -428,7 +431,7 @@ img {
     flex-direction: row;
 }
 
-.nav-bar-right .button-ecom {
+.button-ecom {
     display: flex;
     flex: 0 0 auto;
     color: rgb(255, 255, 255);
@@ -643,4 +646,65 @@ img {
     align-items: center;
 }
 
+
+@media screen  and  (max-width: 660px){
+    .nav-bar {
+        padding: 0.5rem 1rem;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-bar-left {
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-logo, .ecom-boost, .hide-link {
+        display: none;
+    }
+
+    .menu-icon {
+        width: 20px;
+        display: flex;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background: rgb(0, 0, 0);
+    }
+
+    .second-logo {
+        width: fit-content;
+        display: flex;
+    }
+
+    .logo-mini {
+        width: 60%;
+        height: auto;
+    }
+
+    .nav-bar-right {
+        column-gap: 0.5rem;
+    }
+
+    .button-5g {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-ecom {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
