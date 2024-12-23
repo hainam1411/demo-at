@@ -17,8 +17,8 @@ body {
     margin:auto;
     width: 100%;
     background-color: #FEF7F1;
- 
-   
+
+
 
 }
 .slide>div
@@ -35,7 +35,7 @@ body {
     width: 100%;
     align-items: center;
     flex-wrap:wrap
-  
+
 }
 .item-banner
 {
@@ -69,7 +69,7 @@ body {
 .banner-left,.banner-right
 {
     padding: 1.5rem 0;
-   
+
 }
 .banner-left img,.banner-right img
 {
@@ -109,7 +109,7 @@ h2
     border-radius:50rem;
 }.slide-case-study
 {
-  
+
     width: 100%;
 }
 /* .slide-case
@@ -122,7 +122,7 @@ h2
 {
     max-width: 100%;
     object-fit: cover;
-    
+
 }
 @keyframes slideshow-animation {
     0%   { opacity: 1; }
@@ -149,10 +149,10 @@ h2
     animation: slideshow-animation 20s infinite;
       animation-delay: 5s;
   } */
-  .btn-start 
+  .btn-start
   {
     text-align: center;
-  
+
   }
   .btn-start a
   {
@@ -190,7 +190,7 @@ h2
     row-gap: 1.5rem;
     border-radius: 10px
 
-    
+
   }
   .ecosystem
   {
@@ -201,7 +201,7 @@ h2
     row-gap: 2rem;
     border-radius: 10px;
 
-  } .ecosystem h3 
+  } .ecosystem h3
   {
     font-size: 24px;
     font-weight:700;
@@ -226,7 +226,7 @@ h2
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
-   
+
   }
   .ecosystem-item img
   {
@@ -239,7 +239,7 @@ h2
      color: transparent ;
     background:  linear-gradient(90deg, #f26336 0%, #f68e39 100%);
   }
-  
+
   .ecosystem-item h3,.ecosystem-item p
   {
     text-align: center;
@@ -279,83 +279,6 @@ h2
     border-radius: 10px;
     border-top: 1px solid #feaea4;
     background: linear-gradient(180deg, #f48120 0%, #ef4723 100%);
-  }
-  .footer
-  {
-    margin-top: 4rem;
-    padding: 4rem 7rem;
-    background-color: white;
-    color:#475467 ;
-  }
-  .footer-main 
-  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .footer-col-1
-  {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.25rem ;
-    max-width: 30rem;
-  }
-  .footer-col-1 img
-  {
-    width: 50%;
-  }
-  .footer-col-1 .flag 
-  {
-    display: flex;
-    column-gap: 1rem;
-    flex-direction: row;
-  }
-  .flag img
-  {
-    width: 24px;
-  }
-  .footer-col-2
-  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2.5rem;
-  }
-  .contact-with
-  {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem ;
-  }
-
-  .address
-  {
-    display: flex;
-    flex-direction: column;
-    row-gap: 3rem;
-  }
-  .address-north,.address-sorth
-  {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-  }
-  .address-north .pt,.address-sorth .pt,.contact-with .pt
-  {
-    font-weight: 700;
-  }
-  .phone a
-  {
-    display: flex;
-    align-items: center;
-    column-gap: 0.75rem;
-  }
-  .phone a p 
-  {
-    font-weight: normal;
-    color: #475467;
-  }
-  .end
-  {
-    white-space: break-spaces;
   }
 
 :root {
@@ -447,6 +370,13 @@ img {
     height: 26px;
 }
 
+.ecom-boost {
+    display: inline;
+    align-items: center;
+    padding: 1rem;
+
+}
+
 
 .nav-bar-left .ecom {
     display: flex;
@@ -526,7 +456,186 @@ img {
     background: rgb(0, 0, 0);
 }
 
-.t403 {
-    display: none;
+
+/*Banner*/
+
+.banner {
+    overflow: hidden;
+    margin-top: 3rem;
+
+    border-radius: 2rem;
 }
+.banner img {
+    display: block;
+    max-width: 100%;
+
+}
+
+.banner-2 {
+    display: flex;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-2 .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1679px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.banner-2 .banner-2-img {
+    display: flex;
+    z-index: 1000;
+    position: relative;
+    padding-top: 0rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    flex-direction: row;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+.banner-2 .banner-2-bg {
+    top: auto;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeInUp{
+    0% {
+        opacity: 0;
+        transform: translate3d(0px, 50px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0px, 0, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    }
+}
+
+
+
+
+/*footer*/
+.footer {
+    display: flex;
+    background: var(--Black);
+    color: var(--black);
+    flex-direction: row;
+    margin: 4rem 0 0 0;
+    padding: 4rem 7rem;
+}
+
+.footer-main {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-left {
+    display: flex;
+    row-gap: 1.25rem;
+    max-width: 30rem;
+    column-gap: 1rem;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.p-footer {
+    font-size: 1rem;
+    color: #475467;
+    white-space: break-spaces;
+}
+
+.flag {
+    display: flex;
+    max-width: 100%;
+    column-gap: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flag-img {
+    display: flex;
+    width: 24px;
+}
+
+.footer-right {
+    display: grid;
+    column-gap: 2.5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.address {
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.p-title {
+    font-weight: 700;
+}
+
+.main-address {
+    display: flex;
+    row-gap: 1rem;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.HCM {
+    display: flex;
+    row-gap: 1rem;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+}
+
+.method {
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.c-method {
+    color: var(--black);
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+    font-weight: 400;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
 
