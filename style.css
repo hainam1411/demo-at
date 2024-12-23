@@ -614,7 +614,7 @@ img {
 
 
 /*footer*/
-.footer {
+/* .footer {
     display: flex;
     background: var(--Black);
     color: var(--black);
@@ -717,6 +717,6 @@ img {
 .icon {
     display: flex;
     align-items: center;
-}
+} */
 
 
