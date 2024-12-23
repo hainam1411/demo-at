@@ -442,6 +442,11 @@ img {
     padding-left: 0;
 }
 
+.main-logo {
+    display: flex;
+    align-items: center;
+}
+
 .nav-bar-left img {
     height: 26px;
 }
