@@ -581,3 +581,58 @@ img {
     column-gap: 2.5rem;
     grid-template-columns: 1fr 1fr;
 }
+
+.address {
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.p-title {
+    font-weight: 700;
+}
+
+.main-address {
+    display: flex;
+    row-gap: 1rem;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.HCM {
+    display: flex;
+    row-gap: 1rem;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+}
+
+.method {
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.c-method {
+    color: var(--black);
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+    font-weight: 400;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+
