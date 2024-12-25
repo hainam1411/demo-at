@@ -353,6 +353,7 @@ img {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
@@ -374,7 +375,7 @@ img {
     display: none;
 }
 
-.main-logo {
+.main-logo img {
     height: 26px;
 }
 
@@ -470,7 +471,8 @@ img {
 .banner {
     overflow: hidden;
     margin-top: 3rem;
-
+    margin-left: 7rem;
+    margin-right: 7rem;
     border-radius: 2rem;
 }
 .banner img {
@@ -694,6 +696,7 @@ img {
     }
 
     .button-5g {
+        border: 1px solid #ef6820;
         font-size: 0.8rem;
         padding: 0.5rem;
         justify-content: center;
@@ -701,10 +704,16 @@ img {
     }
 
     .button-ecom {
+        background: linear-gradient(180deg, #001e4b 0%, #006ccc 100%);
         font-size: 0.8rem;
         padding: 0.5rem 1rem;
         justify-content: center;
         align-items: center;
+    }
+
+
+    .banner {
+        border-radius: 1rem;
     }
 }
 
