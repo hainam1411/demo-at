@@ -833,6 +833,9 @@ img {
 } */
 
 @media screen  and (max-width: 480px) {
+    .nav-bar {
+        padding: 0;
+    }
     .main-logo {
         display: none;
     }
@@ -845,6 +848,12 @@ img {
     .logo-mini {
         width: 60%;
         height: auto;
+    }
+
+    .nav-bar-left {
+        column-gap: 1rem;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -916,7 +925,7 @@ img {
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 990px) {
     .nav-bar {
         position: relative;
         padding-left: 3rem;
