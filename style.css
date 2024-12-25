@@ -755,7 +755,10 @@ img {
     .select-banner-mobile .item-banner {
         justify-content: center;
         background: #f2f4f7;
-        padding: 12px 15px;
+        padding: 12px 7px;
+        outline: none;
+        color: #667085;
+        font-weight: 500;
     }
 
     .slide {
