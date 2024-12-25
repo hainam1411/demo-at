@@ -27,6 +27,7 @@ body {
 }
 
 .select-banner {
+    padding: 1rem;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -933,7 +934,8 @@ img {
     }
 
     .banner {
-        margin: 2rem 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
 
     }
 
